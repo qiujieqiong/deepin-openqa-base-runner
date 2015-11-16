@@ -31,6 +31,7 @@ function prepare_deb(){
 
     # ========= trigger ============= #
     apt-get -y --force-yes install python3
+    apt-get -y --force-yes install git
     apt-get -y --force-yes install python3-pip
 
 }
