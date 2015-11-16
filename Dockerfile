@@ -2,7 +2,7 @@ FROM debian
 
 MAINTAINER choldrim <choldrim@foxmail.com>
 
-RUN echo "deb http://pools.corp.linuxdeepin.com/deepin unstable main contrib non-free" > /etc/apt/sources.list
+COPY sources.list /etc/apt/sources.list
   
 COPY scripts/container/WEBUI_DEPENDENCIES.txt /data/
 COPY scripts/container/OS-AUTOINST_DEPENDENCIES.txt /data/
