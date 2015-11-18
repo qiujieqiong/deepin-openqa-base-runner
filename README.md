@@ -1,5 +1,5 @@
 ## openQA base runner envirenment
-**Description**: This project provide a base environment for https://openqa.deepin.io, which build with Docker container.  
+**Description**: This project provide a base running environment for openQA v4.1.  
 **Thanks**: Thanks to [os-autoinst](https://github.com/os-autoinst) group for providing such a good automated testing framework.
 
 
